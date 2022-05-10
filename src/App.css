@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600;700&display=swap');
+
+.container-full{
+  background-color: hsl(218, 23%, 16%);
+  font-size: 12px;
+  height: 100vh;
+}
+.container-rectangle{
+  width: 455px;
+  height: 282px;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  position: relative;
+}
+.advice{
+  font-family: 'Manrope';
+  font-weight: bold;
+  letter-spacing: 3px;
+  color:hsl(150, 100%, 66%);
+}
+.container-phrase{
+  height: 150px;
+  width: 100%;
+}
+.phrase{
+  padding-top: 0;
+  font-size: 25px;
+  font-weight: 800;
+  color: hsl(215, 13%, 49%);
+  text-align: center;
+  width: 100%;
+}
+.phrase p{
+ 
+}
+.line img{
+  width: 380px;
+}
+.container-dice{
+  width: 100%;
+  height: 50px;
+  position: relative;
+  top: 25px;
+}
+.dice{
+  position: absolute;
+  z-index: 100;
+  top: 0px;
+  left: 180px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  transition: 0.7s;
+}
+.dice:hover{
+  cursor: pointer;
+  box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
+.dice:focus{
+  box-shadow: 0px 0px 20px 0px rgb(0, 0, 0, 1) inset;
+}
